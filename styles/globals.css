@@ -1,0 +1,249 @@
+/* peach: rgb(241,132,118) */
+/* blue: rgb(85,78,246)  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-size: cover;
+  background-color: #ececea;
+  /* background-color: white; */
+}
+
+.navbar {
+  background-color: #ececea !important;
+  /* background-color: white; */
+  /* background-color: #C7ECEE !important; */
+}
+
+.fb {
+  background-color: #3b5998;
+  color: white;
+}
+
+/* Bricklayer */
+@media screen and (min-width: 1200px) {
+  .bricklayer-column-sizer {
+    /* divide by 3. */
+    width: 33.3%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bricklayer-column-sizer {
+    /* divide by 2. */
+    width: 50%;
+  }
+}
+
+.btn-outline-success {
+  color: rgb(85, 78, 246);
+  border-color: rgb(85, 78, 246) !important;
+}
+
+.btn-outline-success:hover {
+  color: white;
+  background-color: rgb(85, 78, 246) !important;
+}
+
+.border-success {
+  border-color: rgb(85, 78, 246) !important;
+  border-width: 3px;
+}
+
+.acard {
+  background-color: rgb(85, 78, 246) !important;
+  color: white;
+}
+
+.t {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.fb-btn:hover {
+  opacity: 1;
+  color: white;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: black;
+  color: white !important;
+}
+
+.yellow {
+  color: rgb(243, 152, 62);
+}
+
+.squiggle {
+  background: linear-gradient(
+    to bottom,
+    var(--mainColor) 0%,
+    var(--mainColor) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-size: auto 6px;
+}
+
+.location-address {
+  font-size: medium !important;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 3rem;
+}
+
+a {
+  color: #53caf0;
+}
+
+.sub-nav-link {
+  text-decoration: none !important;
+  color: #6c757d;
+}
+
+.sub-nav-link:hover {
+  text-decoration: none !important;
+  color: darkgrey;
+}
+
+.card {
+  max-width: 20rem !important;
+}
+
+/* finds styles */
+.finds {
+  padding: 2rem;
+}
+
+/* .find-body {
+    border-radius: 35px !important;
+} */
+
+.finds > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+  list-style-type: none;
+  padding: 0rem;
+}
+
+.finds > ul > li {
+  /* border: 1px solid #e2e2e2; */
+  border-radius: 35px;
+  background-color: white;
+  /* background-color: #ececea; */
+  /* max-width: 25rem; */
+}
+
+.finds > ul > li > figure {
+  height: 220px;
+  overflow: hidden;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  position: relative;
+}
+
+.finds > ul > li > figure > img {
+  width: 100%;
+}
+
+.finds > ul > li > figure > figcaption > h3 {
+  color: white;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.finds > ul > li > h2 {
+  font-size: 1.5rem;
+  padding: 0.75rem;
+  font-weight: bold;
+}
+
+.finds > ul > li > p {
+  font-size: 1rem;
+  padding: 0.75rem;
+}
+
+.finds > ul > li > h3 {
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  color: white;
+  background-color: rgb(85, 78, 246);
+  width: 120px;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.find-price {
+  line-height: 0;
+  font-weight: bold;
+}
+
+.find-location {
+  color: rgb(243, 152, 62) !important;
+  font-weight: bold;
+  line-height: 0;
+}
+
+.find-tag {
+  /* color: rgb(85, 78, 246); */
+  color: #008060;
+  padding: 0.75rem;
+  line-height: 0;
+  font-weight: 600;
+}
+
+.testcover {
+  width: 100%;
+  height: 500px;
+  /* background-color: rgb(85, 78, 246); */
+  background-color: #008060;
+  color: #ececea;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.wave {
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 100%;
+  position: relative;
+  top: -2px;
+  color: #008060;
+}
+
+.gray {
+  color: #ececea !important;
+}
+
+.info {
+  padding: 0.75rem 1rem;
+}
+
+.purple {
+  background-color: rgb(85, 78, 246) !important;
+}
+
+.green {
+  color: #008060;
+}
