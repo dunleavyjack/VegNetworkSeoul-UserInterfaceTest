@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const SplashWave = () => {
   return (
@@ -14,9 +15,11 @@ const SplashWave = () => {
           <h5>The best vegan and vegetarian finds in the city.</h5>
 
           <br />
-          <button type={"button"} className={"btn btn-dark m-2 gray"}>
-            Browse finds
-          </button>
+          <Link href="/browse">
+            <button type={"button"} className={"btn btn-dark m-2 gray"}>
+              Browse finds
+            </button>
+          </Link>
         </div>
       </div>
       <Image
