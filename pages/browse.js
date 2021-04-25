@@ -1,14 +1,14 @@
 import React from "react";
+import Header from "../components/Header";
+import FindList from "../components/FindList";
 import Navbar from "../components/Navbar";
-import SplashWave from "../components/SplashWave";
-import Overview from "../components/Overview";
 
 const BrowsePage = () => {
   return (
     <>
       <Navbar />
-      <SplashWave />
-      <Overview />
+      <Header text={"The Latest"} />
+      <FindList />
     </>
   );
 };
