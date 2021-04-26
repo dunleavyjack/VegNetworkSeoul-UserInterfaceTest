@@ -4,7 +4,13 @@ const Footer = () => {
   return (
     <div className={"container text-center"}>
       <hr></hr>
-      <p>"It's great to find vegan food in Seoul!"</p>
+      <p>
+        If you want to support this project,{" "}
+        <a href="https://ko-fi.com/jackjoseph" className={"green"}>
+          buy
+        </a>{" "}
+        me a &#127840; :)
+      </p>
     </div>
   );
 };

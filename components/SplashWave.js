@@ -28,6 +28,7 @@ const SplashWave = () => {
         src="/greenwave.png"
         width="4320"
         height="468"
+        priority={true}
       />
     </>
   );
