@@ -22,7 +22,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="navbar-collapse collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ml-auto">
+          <div className="navbar-nav ms-auto">
             <a className="nav-link" href="/browse">
               Browse All Finds
             </a>
