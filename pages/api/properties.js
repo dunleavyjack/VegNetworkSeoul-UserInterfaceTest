@@ -1,3 +1,11 @@
+// this code is never exposed on the front end (like express.js handler functions)
+
+import { connectToDatabase } from "../../util/mongodb";
+
 export default async function handler(req, res) {
-  res.json({ hello: "world" });
+  const { db } = await connectToDatabase();
+
+  const data = await db.collection("finds").find({}).limit(20).toArray();
+
+  res.json(data);
 }
