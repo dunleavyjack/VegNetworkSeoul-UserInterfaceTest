@@ -11,12 +11,27 @@ const SplashWave = () => {
       >
         <div className={"text-center"}>
           <h1 className={"bold gray"}>
-            Veg Network <span className="yellow">|</span> SEOUL
+            Veg Network <span className="yellow">|</span> Seoul
           </h1>
-          <h5>The best vegan and vegetarian finds in the city.</h5>
+          <h5 className={"thin"}>Vegan and vegetarian finds in your city.</h5>
 
           <br />
           <div className="home-buttons">
+            <button
+              type={"button"}
+              className={"btn btn-dark m-2 gray home-button"}
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+            >
+              Join{" "}
+              <Image
+                alt="facebook login"
+                src="/facebook-icon.png"
+                width="16"
+                height="16"
+                objectPosition="0px, 5px"
+              />
+            </button>
             <Link href="/browse">
               <button
                 type={"button"}
@@ -25,21 +40,6 @@ const SplashWave = () => {
                 Browse Finds
               </button>
             </Link>
-            <button
-              type={"button"}
-              className={"btn btn-dark m-2 gray home-button"}
-              data-toggle="modal"
-              data-target="#exampleModalCenter"
-            >
-              Join
-              {/* <Image
-                  alt="facebook login"
-                  src="/facebook-icon.png"
-                  width="16"
-                  height="16"
-                  className={"fb-icon"}
-                /> */}
-            </button>
           </div>
         </div>
       </div>

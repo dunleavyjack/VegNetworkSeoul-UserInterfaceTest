@@ -8,6 +8,7 @@ html {
 body {
   background-size: cover;
   background-color: #ececea;
+  font-family: "Poppins", sans-serif;
   /* background-color: white; */
 }
 
@@ -238,9 +239,17 @@ a {
 
 .home-button {
   width: 150px;
+  color: white !important;
 }
 
-.fb-icon {
-  position: absolute;
+/* .fb-icon {
   top: 5px;
+} */
+
+.bold-title {
+  font-weight: 600 !important;
+}
+
+.thin {
+  font-weight: 100 !important;
 }
