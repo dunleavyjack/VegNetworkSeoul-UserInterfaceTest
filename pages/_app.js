@@ -1,6 +1,7 @@
 import App from "next/app";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Head from "next/head";
 
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
