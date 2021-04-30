@@ -33,12 +33,12 @@ const FindList = ({ finds }) => {
 
   return (
     <>
-      <button onClick={() => filterFinds("finderID", "admin")}>
+      {/* <button onClick={() => filterFinds("finderID", "admin")}>
         Filter by Creator
       </button>
       <button onClick={() => filterFinds("price", "3000₩")}>
         Filter by Price
-      </button>
+      </button> */}
       <section className="container">
         <ul className="find-container">{buildFinds(findDisplay)}</ul>
       </section>

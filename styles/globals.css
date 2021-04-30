@@ -2,8 +2,13 @@
 /* blue: rgb(85,78,246)  */
 
 @font-face {
-  font-family: "Gilmer";
+  font-family: "Gilmer-Regular";
   src: url("/fonts/Gilmer/Gilmer-Regular.otf");
+}
+
+@font-face {
+  font-family: "Gilmer-Outline";
+  src: url("/fonts/Gilmer/Gilmer-Outline.otf");
 }
 
 html {
@@ -13,7 +18,7 @@ html {
 body {
   background-size: cover;
   background-color: #ececea;
-  font-family: "Gilmer";
+  font-family: "Gilmer-Regular";
 }
 
 .navbar {
@@ -142,8 +147,7 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 2rem;
   list-style-type: none;
-  padding: 0rem;
-  padding: 2rem;
+  padding: 1rem;
 
   /* justify-content: start; */
 }
@@ -157,8 +161,8 @@ a {
 .find-figure {
   height: 220px;
   overflow: hidden;
-  border-top-left-radius: 35px;
-  border-top-right-radius: 35px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   position: relative;
 }
 
@@ -258,4 +262,13 @@ a {
 
 .thin {
   font-weight: 100 !important;
+}
+
+.modal-header {
+  font-family: "Gilmer-Outline" !important;
+  color: #008060;
+}
+
+.browse-background {
+  background-color: #008060;
 }

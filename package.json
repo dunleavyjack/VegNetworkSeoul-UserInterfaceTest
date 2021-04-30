@@ -12,6 +12,8 @@
     "bootstrap": "^5.0.0-beta3",
     "mongodb": "^3.5.9",
     "next": "latest",
+    "next-auth": "^3.19.3",
+    "npm": "^7.11.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^16.13.1"

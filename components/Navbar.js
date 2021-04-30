@@ -26,7 +26,7 @@ const Navbar = () => {
             <a className="nav-link" href="/browse">
               Browse All Finds
             </a>
-            <a className="nav-link" href="/addfinds">
+            <a className="nav-link" href="/add">
               Add A Find
             </a>
             <a className="nav-link" href="#">

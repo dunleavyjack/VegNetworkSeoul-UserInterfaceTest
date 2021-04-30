@@ -6,8 +6,10 @@ import { connectToDatabase } from "../util/mongodb";
 export default function Browse({ finds }) {
   return (
     <>
+      {/* <div className={"browse-background"}> */}
       <Header text={"The Latest"} />
       <FindList finds={finds} />
+      {/* </div> */}
     </>
   );
 }
