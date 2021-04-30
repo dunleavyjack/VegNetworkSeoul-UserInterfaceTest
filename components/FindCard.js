@@ -15,12 +15,14 @@ const FindCard = ({ name, veg, tag, price, location }) => {
             height="2048"
           />
         </figure>
-        <h2 className="find-name">{name}</h2>
+        <h2 className="find-name gray">{name}</h2>
         {/* <h3 className="m-3">{tag}</h3> */}
-        <h5>
-          <span className="find-tag">{veg}</span>
+        <h5 className={"gray find-tag"}>
+          <span className="gray">{veg}</span>
+          {" | "}
           <span className="gray">{tag}</span>
-          {/* <span className="find-price">{price}</span> */}
+          {/* {" | "}
+          <span className="gray">{price}</span> */}
         </h5>
         <p className="find-detail">
           Vegan burgers I found at Emart in Seongsu. They were really good!
@@ -30,7 +32,6 @@ const FindCard = ({ name, veg, tag, price, location }) => {
             <RoomIcon />
             {location}
           </span>
-          <span className="find-price">{price}</span>
         </h5>
         {/* <p> 
         className="find-location">

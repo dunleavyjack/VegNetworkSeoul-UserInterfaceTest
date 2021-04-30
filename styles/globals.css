@@ -11,6 +11,11 @@
   src: url("/fonts/Gilmer/Gilmer-Outline.otf");
 }
 
+@font-face {
+  font-family: "Gilmer-Heavy";
+  src: url("/fonts/Gilmer/Gilmer-Heavy.otf");
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -154,7 +159,8 @@ a {
 
 .find-body {
   border-radius: 35px;
-  background-color: white;
+  /* background-color: white; */
+  background-color: #008060;
   max-width: 400px;
 }
 
@@ -271,4 +277,8 @@ a {
 
 .browse-background {
   background-color: #008060;
+}
+
+.bold {
+  font-family: "Gilmer-Heavy";
 }

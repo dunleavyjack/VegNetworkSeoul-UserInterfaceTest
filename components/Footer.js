@@ -5,7 +5,7 @@ const Footer = () => {
     <div className={"container text-center"}>
       <hr></hr>
       <p>
-        If you want to support this project,{" "}
+        Support this project and{" "}
         <a href="https://ko-fi.com/jackjoseph" className={"green"}>
           buy
         </a>{" "}
