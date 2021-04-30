@@ -1,6 +1,11 @@
 /* peach: rgb(241,132,118) */
 /* blue: rgb(85,78,246)  */
 
+@font-face {
+  font-family: "Gilmer";
+  src: url("/fonts/Gilmer/Gilmer-Regular.otf");
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,8 +13,7 @@ html {
 body {
   background-size: cover;
   background-color: #ececea;
-  font-family: "Poppins", sans-serif;
-  /* background-color: white; */
+  font-family: "Gilmer";
 }
 
 .navbar {
@@ -140,13 +144,14 @@ a {
   list-style-type: none;
   padding: 0rem;
   padding: 2rem;
+
   /* justify-content: start; */
 }
 
 .find-body {
   border-radius: 35px;
   background-color: white;
-  /* max-width: 300px; */
+  max-width: 400px;
 }
 
 .find-figure {
@@ -242,9 +247,10 @@ a {
   color: white !important;
 }
 
-/* .fb-icon {
-  top: 5px;
-} */
+.fb-icon {
+  position: "relative" !important;
+  top: 50px !important;
+}
 
 .bold-title {
   font-weight: 600 !important;

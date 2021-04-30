@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import FacebookLogin from "../components/FacebookLogin";
+import FacebookIcon from "@material-ui/icons/Facebook";
 import LoginModal from "../components/LoginModal";
 import SearchBar from "../components/SearchBar";
 
@@ -19,7 +19,7 @@ const SplashWave = () => {
 
           <br />
           <SearchBar />
-          <p>Type in an area or a type of food you're looking for</p>
+          <p className={"mt-2"}>Type an area or a food you're looking for.</p>
           <div className="home-buttons">
             <Link href="/browse">
               <button
@@ -35,14 +35,7 @@ const SplashWave = () => {
               data-toggle="modal"
               data-target="#exampleModalCenter"
             >
-              Join{" "}
-              <Image
-                alt="facebook login"
-                src="/facebook-icon.png"
-                width="16"
-                height="16"
-                objectPosition="0px, 5px"
-              />
+              Connect <FacebookIcon className={"fb-icon"} />
             </button>
           </div>
         </div>
@@ -55,17 +48,7 @@ const SplashWave = () => {
         height="468"
         priority={true}
       />
-      {/* ###### Modal is here ####### */}
-      <div
-        className="modal fade"
-        id="exampleModalCenter"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true"
-      >
-        <LoginModal />
-      </div>
+      <LoginModal />
     </>
   );
 };

@@ -2,10 +2,20 @@ import React from "react";
 
 const LoginModal = () => {
   return (
-    <div className="modal-dialog modal-dialog-centered" role="document">
-      <div className="modal-content">
-        hi
-        {/* <div className="modal-header">
+    <div
+      className="modal fade"
+      id="exampleModalCenter"
+      tabI
+      ndex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div className="modal-dialog modal-dialog-centered" role="document">
+        <div className="modal-content">
+          <div className="modal-body">login</div>
+
+          {/* <div className="modal-header">
           <h5 className="modal-title" id="exampleModalLongTitle">
             Modal title dick
           </h5>
@@ -28,6 +38,7 @@ const LoginModal = () => {
             Close
           </button>
         </div> */}
+        </div>
       </div>
     </div>
   );

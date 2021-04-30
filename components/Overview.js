@@ -26,7 +26,7 @@ const Overview = () => {
           <div className="col-sm">
             <LibraryAddIcon fontSize={"large"} style={{ color: "#008060" }} />
             <p className="mt-3">
-              Join the community and add your own. We are free to join and
+              Enter the community and add your own. We are free to join and
               always will be. This project is built for everyone!
             </p>
           </div>

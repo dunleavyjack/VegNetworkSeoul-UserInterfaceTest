@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import RoomIcon from "@material-ui/icons/Room";
 
 const FindCard = ({ name, veg, tag, price, location }) => {
   return (
@@ -19,12 +20,23 @@ const FindCard = ({ name, veg, tag, price, location }) => {
         <h5>
           <span className="find-tag">{veg}</span>
           <span className="gray">{tag}</span>
+          {/* <span className="find-price">{price}</span> */}
         </h5>
         <p className="find-detail">
           Vegan burgers I found at Emart in Seongsu. They were really good!
         </p>
-        <p className="find-price">{price}</p>
-        <p className="find-location">{location}</p>
+        <h5>
+          <span className="find-location">
+            <RoomIcon />
+            {location}
+          </span>
+          <span className="find-price">{price}</span>
+        </h5>
+        {/* <p> 
+        className="find-location">
+          {location} <span className="find-price">{price}</span>
+        </p> */}
+        {/* <p className="find-location">{location}</p> */}
         {/* <h3 className="m-3">{tag}</h3> */}
       </li>
     </>

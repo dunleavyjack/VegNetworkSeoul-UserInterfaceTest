@@ -10,15 +10,13 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-            rel="stylesheet"
-          />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
-            rel="stylesheet"
-          />
+          {/* <link
+            rel="preload"
+            href="/fonts/Gilmer/Gilmer-Regular.otf"
+            as="font"
+            crossOrigin=""
+          />{" "} */}
+          <link rel="stylesheet" href="/fonts/Gilmer/Gilmer-Regular.otf" />
         </Head>
         <body>
           <Main />
