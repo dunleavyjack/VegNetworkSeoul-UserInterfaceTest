@@ -17,7 +17,7 @@ const LoginModal = () => {
           <div className="modal-body">
             <h1 className="modal-header">JOIN THE NETWORK</h1>
             <div
-              class="fb-login-button"
+              className="fb-login-button"
               data-width=""
               data-size="large"
               data-button-type="continue_with"
@@ -28,34 +28,15 @@ const LoginModal = () => {
           </div>
         </div>
       </div>
+      <script
+        async
+        defer
+        crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=187280509726996&autoLogAppEvents=1"
+        nonce="CIuAUZI2"
+      ></script>
     </div>
   );
 };
 
 export default LoginModal;
-
-{
-  /* <div className="modal-header">
-          <h5 className="modal-title" id="exampleModalLongTitle">
-            Modal title dick
-          </h5>
-          <button
-            type="button"
-            className="close"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div className="modal-body">...</div>
-        <div className="modal-footer">
-          <button
-            type="button"
-            className="btn btn-secondary"
-            data-dismiss="modal"
-          >
-            Close
-          </button>
-        </div> */
-}
