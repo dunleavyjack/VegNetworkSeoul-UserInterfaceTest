@@ -26,7 +26,10 @@ const FindCard = ({ name, veg, tag, price, location }) => {
             Found these at Emart in Seongsu. They were a little pricey but
             really good!
           </p>
-          <div className="find-location">{location}</div>
+          <div className="find-location">
+            {location}
+            <span className={"find-price"}>{price}</span>
+          </div>
         </div>
       </li>
     </>
