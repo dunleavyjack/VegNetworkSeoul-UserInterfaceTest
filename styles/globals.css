@@ -171,11 +171,11 @@ a {
 .find-figure {
   height: 300px;
   overflow: hidden;
-  /* border-top-left-radius: 30px;
-  border-top-right-radius: 30px; */
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   position: relative;
   margin: 0px;
-  border-radius: 35px;
+  /* border-radius: 35px; */
 }
 
 .find-image {
