@@ -8,11 +8,11 @@ const FindCard = ({ name, veg, tag, price, location }) => {
       <li className="find-body">
         <figure className="find-figure">
           <Image
-            src="/veggie.jpeg"
+            src="/kalechips.jpeg"
             alt="Vegetarian find"
             className={"find-image"}
-            width="1536"
-            height="2048"
+            width="1200"
+            height="1200"
           />
         </figure>
         <div className={"find-content"}>
