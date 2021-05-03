@@ -23,7 +23,8 @@ const FindCard = ({ name, veg, tag, price, location }) => {
             <span className="green">{tag}</span>
           </h5>
           <p className="find-detail">
-            Vegan burgers I found at Emart in Seongsu. They were really good!
+            Found these at Emart in Seongsu. They were a little pricey but
+            really good!
           </p>
           <div className="find-location">{location}</div>
         </div>
