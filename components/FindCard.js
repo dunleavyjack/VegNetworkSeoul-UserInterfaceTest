@@ -27,7 +27,7 @@ const FindCard = ({ name, veg, tag, price, location }) => {
             really good!
           </p>
           <div className="find-location">
-            {location} <RoomIcon />
+            {location} <RoomIcon fontSize="small" />
             {/* <span className={"find-price"}>{"  " + price}</span> */}
           </div>
         </div>
